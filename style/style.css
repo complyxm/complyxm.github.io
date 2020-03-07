@@ -1,0 +1,119 @@
+html {
+    font-size: 18px;
+    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+  }
+
+body {
+    margin: auto;
+    width: 100%;
+  }
+
+section {
+  padding: 1em;
+}
+
+address {
+  padding: 1em;
+  font-style: normal;
+}
+
+header {
+  height: 100px;
+}
+
+footer {
+  background-color: #032A48;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  float: left;
+  margin: 0 0 0 2em;
+}
+
+#wrapper {
+  clear: both;
+  margin: auto;
+}
+
+#statement{
+  height: 500px;
+  width: 100%;
+  background-image: url("../images/network.jpg") ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-contents {
+  width: 80%;
+  margin: auto;
+}
+
+.mainmessage {
+  font-size: 2em;
+  color: #ffffff;
+  padding: 1.5em;
+}
+
+.sectionheader {
+  font-size: em;
+  padding: 1em 0 0 0;
+}
+
+.sectionsubheader {
+  font-size: 1em;
+  padding: 1em 0 0 0;
+}
+
+.textarea {
+  font-size: 1em;
+  margin: 1em 0 0 0;
+}
+
+.listarea {
+  font-size: 1em;
+  height: 200px;
+}
+
+.pagetop {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 15px;
+}
+
+.pagetop a {
+  display: block;
+  background-color: #ccc;
+  text-align: center;
+  color: #222;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 5px 10px;
+  filter:alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.pagetop a:hover {
+  display: block;
+  background-color: #b2d1fb;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  padding:5px 10px;
+  filter:alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.copyright {
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+}

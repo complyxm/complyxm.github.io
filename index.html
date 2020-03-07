@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="complyxm project">
+  <meta name="description" content="complyxmは社会経済や組織人事を複雑ネットワークととらえ、その成長を数理モデルを用いて支援するR&Dプロジェクトです。">
+  <title>complyxm - 複雑系科学を活かす組織開発シミュレーションSaaS</title>
+
+  <meta property="og:site_name" content="complyxm">
+  <meta property="og:title" content="複雑系科学を活かす組織開発シミュレーションSaaS">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/ogp.jpg">
+  <meta property="og:description" content="complyxmは社会経済や組織人事を複雑ネットワークととらえ、その成長を数理モデルを用いて支援するR&Dプロジェクトです。">
+  <meta name="twitter:title" content="complyxm - 複雑系科学を活かす組織開発シミュレーションSaaS">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <!--here is CSS link-->
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+<body>
+  <!-- Here is header -->
+  <header id = "top">
+    <div id = "logo">
+      <h1><a href="index.html"><img src="images/logo.jpg" title="complyxm" alt="complyxm" width="250px"></a></h1>
+    </div>
+  </header>
+
+  <!-- Here is main contents -->
+  <div id = "wrapper">
+  <main>
+    <div id="statement">
+      <p class = "mainmessage">30、50、100人の壁を超えて進化するスタートアップ組織を増やす</p>
+    </div>
+
+    <div id = "main-contents">
+    <section id = "about">
+        <h2 class = "sectionheader">About</h2>
+      <h3 class = "sectionsubheader">ネットワークとしての組織を科学する</h3>
+      <div class ="textarea">
+        <p>complyxm（コンプリズム）は「Complexity（複雑性）＋Rhythm（リズム）」を合わせた造語です。複雑な社会経済や組織人事をネットワークととらえ、その成長を数理モデルを用いて支援するR&Dプロジェクトです。組織開発SaaSを開発したり、コンサルティングプログラムを開発していきます。</p>        
+
+        <p>グローバルな人の移動の加速、SNS、チャットコミュニケーションなど、社会のあらゆる場所・レイヤーでネットワーク化が進んでいます。人々が密接・複雑につながり合う世界では、局所的な個人の活動がマクロな社会現象を起こすことがあり、これは創発と呼ばれています。創発のメカニズムをうまく使えばイノベーションにつながりますが、失敗すれば社会システムは混乱を起こしてしまいます。</p>
+
+        <p>日々組織内コミュニケーションが行われている企業組織も複雑ネットワークといえます。創発の成功例としてはオープンイノベーションやティール組織が有名です。一方、スタートアップ組織拡大の失敗パターンでよく言われる「30、50、100人の壁」は、組織の複雑さが急激に大きくなる中で、そのネットワーク活用の難しさを表しています。</p>
+
+        <p>complyxmはこの壁の解明に挑戦し、日本のスタートアップ組織の活性化に取り組みます。</p>
+      </div>
+    </section>
+
+    <section id = "people">
+      <h2 class = "sectionheader">People</h2>
+      <div class = "textarea">
+        <p>大学で計量経済学、経済成長理論を専攻後、政府系金融機関に入社。人事採用コンサルティングファームにて大手Webサービス企業の新規事業採用支援、自社新規事業でのHR Techプロダクト開発等に携わる。その後、ITベンチャーの人事マネージャー等を経験。</p>
+        <p>公共政策学修士。現在大学に在籍し情報学専攻</p>
+      </div>
+    </section>
+
+    <section id = "projects">
+      <h2 class = "sectionheader">Projects</h2>
+      <div class = "listarea">
+      <ol>
+        <li>複雑ネットワーク理論を活かす組織開発シミュレーションSaaSの開発</li>
+        <li>非線形モデルによる市場予測アルゴリズムの開発</li> 
+      </ol>
+      </div>
+    </section>
+    </div>
+    <!-- here will be our contact -->
+  </main>
+  </div>
+
+  <!-- here is footer -->
+  <footer class = "textarea">
+    <p class="copyright">©Copyright 2020- Complyxm Project. All rights reversed.</p>
+  </footer>
+  <p class="pagetop"><a href="#top">▲</a></p>
+</body>
+
+<!--here is JS link-->
+<script src="./jquery-3.4.1.min.js"></script>
+<script>
+  $(document).ready(function() {
+    var pagetop = $('.pagetop');
+      $(window).scroll(function () {
+         if ($(this).scrollTop() > 800) {
+              pagetop.fadeIn();
+         } else {
+              pagetop.fadeOut();
+              }
+         });
+         pagetop.click(function () {
+             $('body, html').animate({ scrollTop: 0 }, 500);
+                return false;
+     });
+  });
+</script>
+</html>
